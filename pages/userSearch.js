@@ -8,7 +8,7 @@ function UserSearch() {
 	return (
 		<div>
 			<Head>
-				<title>Tweet search by username</title>
+				<title>User search by username</title>
 			</Head>
 			<div className='flex justify-center'>
 				<div className='mt-12 text-center'>

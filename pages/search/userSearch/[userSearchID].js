@@ -13,7 +13,7 @@ function User(props) {
     {data ? 
 		(<div>
 			<Head>
-				<title>Tweet search by username</title>
+				<title>User search by username</title>
 			</Head>
 			<div className='text-center max-w-[750px] my-0 mx-auto'>
 				<h1 className=' text-6xl leading-tight text-center font-bold font-sans mt-16'>
