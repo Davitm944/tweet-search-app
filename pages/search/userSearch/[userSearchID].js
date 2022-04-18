@@ -3,6 +3,7 @@ import React from 'react';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import ErrorPage from '../../../components/ErrorPage';
+import Button from '../../../components/Button';
 
 function User(props) {
 	const data = props.data.data;
@@ -37,6 +38,9 @@ function User(props) {
             <p>Created At: <span className='text-blue-400'>{data.created_at}</span></p>
           </div>
 				</div>
+			</div>
+      <div className='text-center mt-7'>
+			  <Button link={'/'} content='Go to main page' />
 			</div>
 		</div>) : <ErrorPage/>}
     </>
