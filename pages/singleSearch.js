@@ -50,8 +50,6 @@ function singleSearch() {
 			<div className='text-center mt-7'>
 				<Button link={'/'} content='Go to main page' />
 			</div>
-
-
 		</div>
 	);
 }

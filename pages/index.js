@@ -16,11 +16,12 @@ export default function Home() {
 					</a>
 				</p>
 				<span className='block mt-5 font-medium text-gray-700'>
-					Currnetly we offer 2 ways of searching, but soon will be added more functionality.
+					Currnetly we offer 3 ways of searching, but soon will be added more functionality.
 				</span>
 				<div className='mt-8'>
 					<Button content='Single tweet search' link='/singleSearch' />
 					<Button content='Full-archive search' link='/fullArchiveSearch' />
+					<Button content='Search by username' link='/userSearch' />
 				</div>
 			</div>
 		</div>

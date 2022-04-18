@@ -19,7 +19,7 @@ function FullArchiveSearch() {
 			<div className='flex justify-center mt-4'>
 				<input
 					type='text'
-					placeholder='Type tweet ID'
+					placeholder='Type any word'
 					className='w-[300px] border-2 border-blue-400 pl-1 py-2 mr-[-30px]'
 					value={query}
 					onChange={(e) => setQuery(e.target.value)}
